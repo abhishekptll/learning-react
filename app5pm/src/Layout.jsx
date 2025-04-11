@@ -1,17 +1,19 @@
 import { Link, Outlet } from "react-router-dom";
 
-const Layout =()=>{
-    return(
-        <>
-        <Link to="home">Home</Link>
-        <Link to="About">About</Link>
-        <Link to="Contact">Contact</Link>
-        <hr size="4" color="red" />
+const Layout = () => {
+  return (
+    <>
+      <nav>
+        <Link to="/home">Home</Link> |{" "}
+        <Link to="/insert">Insert</Link> |{" "}
+        <Link to="/display">Display</Link>
+      </nav>
+      <hr />
+      <Outlet />
+      <hr />
+      <footer>www.mycompany.com</footer>
+    </>
+  );
+};
 
-        <Outlet/>
-
-        <hr size="4" color="red" />
-        </>
-    )
-}
 export default Layout;
