@@ -14,13 +14,11 @@ const Display=()=>{
     const ans =mydata.map((key)=>{
         return(
             <>
-            
             <tr>
                 <td>{key.name}</td>
                 <td>{key.rollno}</td>
                 <td>{key.city}</td>
             </tr>
-            
             </>
         )
     })

@@ -24,10 +24,12 @@ const Insert = () => {
   return (
     <>
       <h1>Insert Page</h1>
+
       Enter name: <input type="text" name="name" onChange={handleInput} /> <br /><br />
       Enter age: <input type="text" name="age" onChange={handleInput} /> <br /><br />
       Enter roll no: <input type="text" name="rollno" onChange={handleInput} /> <br /><br />
       <button onClick={handleSubmit}>Submit</button>
+      
     </>
   );
 };
