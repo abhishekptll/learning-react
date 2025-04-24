@@ -1,12 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<!-- event  -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--->event is a if we can click on the button so -> function fire - it is called a event
 
-## Expanding the ESLint configuration
+--->as a jsx function call not js call
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---> event name Camel case 
+---> function call as jsx
+---> we only pass fun name not ()
+
+--> if we can pars value/argument for fun call so we can use arrow function "()=>{}"
+
+<!-- hooks     -->
+hook -> are called normal js pre-define functions
+useState ->  if we want to change  ui -> use useState
+useState return -> destrachring formate in arr 
+
+let [ variable ,function ] = useState(initial state) 
+
+if we change the value of variable -> use function 
+
+
+img video or more  inside the public folder so we can use like a js
+
+if img inside the src ->  import the img
+
